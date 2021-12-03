@@ -1,0 +1,78 @@
+@import url(./background.css);
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Mono', monospace;
+}
+.icon
+{
+    color: white;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.fab
+{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+	transition: 0.3s;
+}
+.fab:hover
+{
+	color: #f5b342;
+}
+
+.header
+{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 45%;
+	left: 50%;
+	color: white;
+	font-size: 3rem;
+}
+#description{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 51%;
+	left: 50%;
+    font-weight: 300;
+    font-size: 1.2rem;
+
+    color: gray;
+    transition-duration: 0.3s;
+}
+.footer
+{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	bottom: 1rem;
+	left: 50%;
+	z-index: 2;
+	color: gray;
+}
+@media(max-width: 700px)
+{
+    h1
+    {
+        font-size: 30px;
+    }
+    .container{
+        width: 80%;
+    }
+    .fab
+    {
+        font-size: 30px;
+        padding: 6px;
+    }
+}
+@media(max-width: 354px)
+{
+    .fab
+    {
+        padding: 1px;
+    }
+}
