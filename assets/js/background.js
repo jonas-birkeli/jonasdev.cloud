@@ -7,7 +7,7 @@ let images = [
     './assets/img/wallpaper5.jpg',
     './assets/img/wallpaper6.jpg'
 ]
-let linearGrade = '#000000b9, #000000b9';
+let linearGrade = '#000000d9, #000000d9';
 let randInt = Math.floor(Math.random()*images.length)
 function background() {
     animationArea.style.backgroundImage = `linear-gradient(${linearGrade}), url(${images[randInt]})`;
