@@ -1,6 +1,12 @@
+html {
+	
+}
+
 
 .animation-area {
-	background: linear-gradient(to left, #101010, #101010);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 	width: 100%;
 	height: 100vh;
 }

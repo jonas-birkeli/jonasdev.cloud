@@ -1,8 +1,16 @@
 @import url(./background.css);
+
+/* !!! extremely homophobic code below !!! */
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto Mono', monospace;
+}
+#main 
+{
+    width: 100%;;
+    height: 100vh;
 }
 .icon
 {
@@ -45,7 +53,7 @@
     color: gray;
     transition-duration: 0.3s;
 }
-.footer
+footer
 {
 	position: absolute;
 	transform: translate(-50%,-50%);
@@ -53,41 +61,21 @@
 	left: 50%;
 	z-index: 2;
 	color: gray;
+    text-align: center;
 }
-@media(max-width: 700px)
+footer a
 {
-    .container{
+    color: gray;
+}
+@media(max-width: 700px) {
+    .container {
         width: 80%;
     }
-    .fab
-    {
+    .fab {
         font-size: 30px;
         padding: 6px;
     }
-}
-@media(max-width: 383px)
-{
-    .fab
-    {
-        font-size: 25px;
-    }
-}
-@media(max-width: 354px)
-{
-    .fab
-    {
-        padding: 1px;
-    }
-}
-
-@media(max-height: 700px)
-{
-    .header
-    {
-        top: 43%;
-    }
-    .fab
-    {
-        
-    }
-}
+};
+@media(max-width: 383px) { .fab { font-size: 25px; } };
+@media(max-width: 354px) { .fab { padding: 1px; } };
+@media(max-height: 700px) { .header { top: 43%; } };
