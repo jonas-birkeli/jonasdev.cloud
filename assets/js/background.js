@@ -17,8 +17,7 @@ let images = [
     './assets/img/wallpaper15.jpg',
     './assets/img/wallpaper16.jpg',
     './assets/img/wallpaper17.jpg',
-    './assets/img/wallpaper18.jpg',
-    './assets/img/wallpaper19.jpg'
+    './assets/img/wallpaper18.jpg'
 ]
 let linearGrade = '#000000d9, #000000d9';
 let randInt = Math.floor(Math.random()*images.length)
